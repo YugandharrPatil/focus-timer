@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" id="favicon" href="" />
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="main.js"></script>
+		<title class="timer">Focus Timer</title>
+	</head>
+	<body>
+		<h1>Focus Timer</h1>
+		<h1 class="timer"></h1>
+		<div class="form">
+			<form id="inputForm">
+				<label>
+					Hour:
+					<input type="number" max="3" class="hours" />
+				</label>
+				<label>
+					Minute:
+					<input type="number" min="0" max="59" class="minutes" />
+					<br />
+				</label>
+				<label>
+					Second:
+					<input type="number" class="seconds" min="0" max="59" />
+				</label>
+				<button type="submit" class="submitButton">Start</button>
+			</form>
+		</div>
+	</body>
+</html>
